@@ -1,7 +1,7 @@
 from entities.safe import isSafe
 
 class solveMazeUtil:
-    def __init__(self,maze, x, y, sol) -> None:
+    def __init__(self,maze, x, y, sol):
         self.i = isSafe
         N=4
         if x == N - 1 and y == N - 1 and maze[x][y]== 1:
@@ -11,7 +11,7 @@ class solveMazeUtil:
         if self.i(maze, x, y) == True:
 
             if sol[x][y] == 1:
-                return False
+                return None
             
             sol[x][y] = 1
             

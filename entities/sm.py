@@ -4,7 +4,7 @@ from entities.smu import solveMazeUtil
 
 
 class solveMaze:
-    def __init__(self, maze) -> None:
+    def __init__(self, maze):
         self.p = printSolution
         self.m = maze
         self.s = solveMazeUtil

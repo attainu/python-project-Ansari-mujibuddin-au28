@@ -2,11 +2,12 @@
 
 
 class isSafe:
-    def __init__(self, maze, x, y) -> None:
+    def __init__(self, maze, x, y):
         N=4
         if(x >= 0 and x < N and y >= 0 and y < N and maze[x][y] == 1):
-	        return True
-        
+            return True
+        else:
+           return False
 
         
         
