@@ -1,14 +1,10 @@
 
+from numpy import append
 import sm
 
 N = int(input("enter num 4 ="))
 
 
-
-
-
-
-	
 
 if __name__ == "__main__":
 
